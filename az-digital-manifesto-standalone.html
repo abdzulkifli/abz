@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#050706" />
+  <meta name="description" content="AZ. A digital manifesto about systems, connection and understanding." />
+  <title>AZ | Understanding Changes Everything</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+:root{--bg:#050706;--panel:#0b0f0c;--text:#f2f5f2;--muted:#98a099;--accent:#adff3f;--line:rgba(255,255,255,.12);--pad:clamp(22px,5vw,84px)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit}.noise{position:fixed;inset:0;pointer-events:none;opacity:.035;z-index:1;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E")}.progress{position:fixed;left:0;top:0;width:100%;height:2px;z-index:20;background:transparent}.progress span{display:block;width:0;height:100%;background:var(--accent)}#network{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}.site-header{position:fixed;z-index:18;left:0;right:0;top:0;display:flex;align-items:center;justify-content:space-between;padding:24px var(--pad);mix-blend-mode:difference}.brand{display:flex;font-weight:900;font-size:25px;letter-spacing:-.15em}.brand span:last-child{color:var(--accent)}.menu-toggle{border:1px solid rgba(255,255,255,.2);background:rgba(5,7,6,.45);border-radius:999px;padding:10px 17px;text-transform:uppercase;font-size:11px;letter-spacing:.14em;cursor:pointer}.menu{position:fixed;top:76px;right:var(--pad);display:grid;gap:6px;padding:14px;background:rgba(8,11,9,.92);border:1px solid var(--line);border-radius:18px;backdrop-filter:blur(16px);opacity:0;transform:translateY(-10px);pointer-events:none;transition:.25s}.menu.open{opacity:1;transform:none;pointer-events:auto}.menu a{padding:11px 14px;border-radius:10px;font-size:14px}.menu a:hover{background:rgba(173,255,63,.1);color:var(--accent)}main{position:relative;z-index:2}.intro{min-height:100svh;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.95fr);align-items:center;gap:clamp(42px,7vw,120px);padding:130px var(--pad) 80px}.intro-copy{max-width:760px}.eyebrow,.chapter-label,.kicker{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}.intro-title{margin:22px 0 24px;font-size:clamp(52px,7.2vw,116px);line-height:.87;letter-spacing:-.075em;font-weight:800}.intro-title .line{display:block}.accent{color:var(--accent)}.intro-note{max-width:620px;color:#c5cbc6;font-size:clamp(16px,1.5vw,20px);line-height:1.65}.enter,.contact-button{display:inline-flex;align-items:center;gap:35px;margin-top:28px;padding:14px 18px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.025);font-size:13px;text-transform:uppercase;letter-spacing:.13em}.enter b{color:var(--accent);font-size:18px}.system-stage{position:relative;min-height:560px;display:grid;place-items:center;isolation:isolate}.system-stage:before,.system-stage:after{content:"";position:absolute;border:1px solid rgba(173,255,63,.18);border-radius:50%;animation:orbit 18s linear infinite}.system-stage:before{width:min(34vw,460px);aspect-ratio:1}.system-stage:after{width:min(23vw,310px);aspect-ratio:1;animation-direction:reverse;animation-duration:11s}.az-core{position:relative;display:flex;align-items:center;justify-content:center;gap:.02em;width:min(26vw,360px);aspect-ratio:1;border-radius:50%;font-size:clamp(80px,10vw,150px);font-weight:900;letter-spacing:-.18em;color:rgba(255,255,255,.94);text-shadow:0 0 50px rgba(173,255,63,.2);filter:drop-shadow(0 0 42px rgba(173,255,63,.16));transition:transform .18s ease-out}.az-core:before{content:"";position:absolute;inset:20%;border-radius:50%;background:radial-gradient(circle,rgba(173,255,63,.25),transparent 64%);filter:blur(25px);animation:breathe 4s ease-in-out infinite}.az-core span{position:relative;z-index:1}.az-core span:last-child{color:var(--accent)}.stage-label{position:absolute;bottom:38px;margin:0;font-size:10px;letter-spacing:.22em;color:#7d867f}.chapter{position:relative;min-height:100svh;padding:120px var(--pad);border-top:1px solid rgba(255,255,255,.07);background:rgba(5,7,6,.78);backdrop-filter:blur(2px)}.chapter-label{position:absolute;top:38px;left:var(--pad)}.statement{max-width:1040px}.statement.narrow{max-width:850px}.statement h2,.contact h2{margin:14px 0 0;font-size:clamp(42px,6.3vw,92px);line-height:.98;letter-spacing:-.065em}.questions{margin-top:90px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line)}.questions article{min-height:230px;padding:30px;background:var(--bg);display:flex;flex-direction:column;justify-content:space-between}.questions span{font-size:11px;color:var(--accent)}.questions p{margin:0;font-size:clamp(22px,2.4vw,36px);line-height:1.16;letter-spacing:-.035em}.bridge{margin:90px 0 0;font-size:clamp(28px,4vw,58px);color:var(--accent)}.full-thought{display:flex;flex-direction:column;margin-top:8vh;font-size:clamp(60px,11vw,170px);line-height:.82;letter-spacing:-.09em;font-weight:800}.philosophy-grid{margin-top:100px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line)}.philosophy-grid article{padding:28px;background:var(--bg);min-height:220px}.philosophy-grid strong{font-size:20px;color:var(--accent)}.philosophy-grid p{font-size:17px;line-height:1.6;color:#c2c8c3}.exploration-list{margin-top:80px;border-top:1px solid var(--line)}.exploration{width:100%;display:grid;grid-template-columns:55px .8fr 1.2fr;align-items:center;gap:24px;padding:26px 6px;border:0;border-bottom:1px solid var(--line);background:transparent;text-align:left;cursor:pointer;transition:.25s}.exploration:hover,.exploration.active{padding-left:18px;background:rgba(173,255,63,.05)}.exploration span{color:var(--muted);font-size:11px}.exploration strong{font-size:clamp(22px,2.2vw,34px)}.exploration em{font-style:normal;color:#aab2ac;line-height:1.5}.topic-panel{margin-top:50px;display:grid;grid-template-columns:1.3fr .7fr;gap:50px;padding:34px;border:1px solid rgba(173,255,63,.22);background:rgba(173,255,63,.025)}.topic-panel p{margin:0;font-size:clamp(24px,3vw,44px);line-height:1.2;letter-spacing:-.04em}.topic-links{display:flex;flex-wrap:wrap;gap:10px;align-content:flex-start}.topic-links span{border:1px solid var(--line);border-radius:999px;padding:9px 12px;font-size:12px;color:#cbd1cc}.method-track{margin-top:80px;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}.method-track button{min-width:0;padding:18px 8px;border:1px solid var(--line);background:transparent;cursor:pointer;font-size:clamp(11px,1.15vw,15px);white-space:nowrap}.method-track button:hover,.method-track button.active{border-color:var(--accent);background:rgba(173,255,63,.1);color:var(--accent)}.method-copy{max-width:850px;min-height:110px;margin:40px 0 0;font-size:clamp(22px,3vw,40px);line-height:1.25;color:#d3d8d4}.principle-stack{display:grid;gap:5vh;padding-top:8vh}.principle-stack p{margin:0;max-width:1100px;font-size:clamp(48px,8vw,122px);line-height:.92;letter-spacing:-.075em;font-weight:700}.contact{display:grid;grid-template-columns:1.3fr .7fr;align-items:end;gap:60px;min-height:100svh}.contact-copy>p:not(.kicker){max-width:650px;color:#aab2ac;font-size:18px;line-height:1.7}.contact-button{margin-top:24px;background:var(--accent);color:#071006;border-color:var(--accent);font-weight:700}.final-mark{text-align:right;font-size:clamp(150px,24vw,430px);line-height:.65;letter-spacing:-.18em;font-weight:900;color:rgba(173,255,63,.08);user-select:none}.reveal{opacity:0;transform:translateY(22px);animation:reveal .8s ease forwards}.delay-1{animation-delay:.35s}.delay-2{animation-delay:.7s}.delay-3{animation-delay:1.05s}.magnetic{transition:transform .2s ease}@keyframes reveal{to{opacity:1;transform:none}}@keyframes breathe{50%{transform:scale(1.16);opacity:.7}}@keyframes orbit{to{transform:rotate(360deg)}}
+@media(max-width:1050px){.intro{grid-template-columns:1fr;gap:18px;padding-top:120px}.system-stage{min-height:390px}.system-stage:before{width:340px}.system-stage:after{width:230px}.az-core{width:280px}.stage-label{bottom:15px}.philosophy-grid{grid-template-columns:repeat(2,1fr)}.method-track{grid-template-columns:repeat(4,1fr)}.contact{grid-template-columns:1fr}.final-mark{text-align:left;margin-top:50px}}
+@media(max-width:720px){:root{--pad:20px}.site-header{padding-top:18px}.intro{min-height:auto;padding-top:115px;padding-bottom:70px}.intro-title{font-size:clamp(52px,17vw,78px);line-height:.9}.intro-note{font-size:16px}.system-stage{min-height:320px}.az-core{width:210px;font-size:84px}.system-stage:before{width:250px}.system-stage:after{width:170px}.stage-label{display:none}.chapter{min-height:auto;padding-top:110px;padding-bottom:90px}.questions{grid-template-columns:1fr;margin-top:60px}.questions article{min-height:180px}.philosophy-grid{grid-template-columns:1fr}.exploration{grid-template-columns:38px 1fr;padding:22px 0}.exploration em{grid-column:2}.topic-panel{grid-template-columns:1fr;padding:22px}.method-track{grid-template-columns:repeat(2,minmax(0,1fr))}.method-track button{font-size:13px;padding:15px 6px}.contact h2{font-size:clamp(42px,12vw,68px)}.final-mark{font-size:44vw;margin-top:40px}.menu{right:20px;left:20px}.full-thought{font-size:clamp(58px,19vw,94px)}}
+@media(max-width:390px){.intro-title{font-size:50px}.method-track{grid-template-columns:1fr}.method-track button{white-space:normal}.enter{gap:18px}.chapter-label{font-size:9px}.questions p{font-size:24px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+
+</style>
+</head>
+<body>
+  <canvas id="network" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="site-header">
+    <a class="brand magnetic" href="#top" aria-label="AZ home"><span>A</span><span>Z</span></a>
+    <button class="menu-toggle magnetic" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" class="menu" aria-label="Primary navigation">
+      <a href="#curiosity">Curiosity</a>
+      <a href="#philosophy">Philosophy</a>
+      <a href="#explorations">Explorations</a>
+      <a href="#principles">Principles</a>
+      <a href="#contact">Connect</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <p class="eyebrow reveal">A DIGITAL MANIFESTO</p>
+        <h1 id="intro-title" class="intro-title">
+          <span class="line reveal">Everything is</span>
+          <span class="line accent reveal">connected.</span>
+          <span class="line reveal delay-1">Most people</span>
+          <span class="line reveal delay-1">never see it.</span>
+          <span class="line accent reveal delay-2">I do.</span>
+        </h1>
+        <p class="intro-note reveal delay-2">I study how ideas become action, how decisions shape systems, and how understanding changes what people do next.</p>
+        <a class="enter magnetic reveal delay-3" href="#curiosity"><span>Enter the thinking</span><b>↘</b></a>
+      </div>
+      <div class="system-stage" aria-label="Interactive living system visual">
+        <div class="az-core" id="azCore" aria-hidden="true">
+          <span>A</span><span>Z</span>
+        </div>
+        <p class="stage-label">MOVE TO DISCOVER CONNECTIONS</p>
+      </div>
+    </section>
+
+    <section id="curiosity" class="chapter chapter-dark">
+      <div class="chapter-label">01 / CURIOSITY</div>
+      <div class="statement narrow">
+        <p class="kicker">I have never been interested in having all the answers.</p>
+        <h2>I am interested in finding the question that changes everything.</h2>
+      </div>
+      <div class="questions">
+        <article><span>01</span><p>Why do good strategies fail after the presentation ends?</p></article>
+        <article><span>02</span><p>Why does more information sometimes create less confidence?</p></article>
+        <article><span>03</span><p>Why do capable people still move in different directions?</p></article>
+        <article><span>04</span><p>What becomes possible when the hidden relationships become visible?</p></article>
+      </div>
+      <p class="bridge">Those questions became my work.</p>
+    </section>
+
+    <section id="philosophy" class="chapter philosophy">
+      <div class="chapter-label">02 / PHILOSOPHY</div>
+      <div class="full-thought"><span>Understanding</span><span class="accent">changes everything.</span></div>
+      <div class="philosophy-grid">
+        <article><strong>Strategy</strong><p>should create choices, not just statements.</p></article>
+        <article><strong>Data</strong><p>should create confidence, not more noise.</p></article>
+        <article><strong>Governance</strong><p>should create trust without stopping movement.</p></article>
+        <article><strong>Architecture</strong><p>should make change coherent, not fragile.</p></article>
+      </div>
+    </section>
+
+    <section id="explorations" class="chapter explorations">
+      <div class="chapter-label">03 / EXPLORATIONS</div>
+      <div class="statement"><p class="kicker">Ideas I keep returning to</p><h2>I invent better ways for organisations to think, connect, decide and move.</h2></div>
+      <div class="exploration-list">
+        <button class="exploration active" data-topic="decision" type="button"><span>01</span><strong>Decision Intelligence</strong><em>What happens when information becomes understanding?</em></button>
+        <button class="exploration" data-topic="systems" type="button"><span>02</span><strong>Systems Thinking</strong><em>What if the problem is being created somewhere else?</em></button>
+        <button class="exploration" data-topic="architecture" type="button"><span>03</span><strong>Inventive Architecture</strong><em>How do we design for change without creating more fragmentation?</em></button>
+        <button class="exploration" data-topic="execution" type="button"><span>04</span><strong>Execution Design</strong><em>How do we make ownership, friction and trade-offs impossible to ignore?</em></button>
+      </div>
+      <div class="topic-panel" aria-live="polite">
+        <p id="topicText">I connect signals, context and consequences so leaders can recognise what matters before uncertainty becomes delay.</p>
+        <div class="topic-links" id="topicLinks"><span>Signals</span><span>Context</span><span>Meaning</span><span>Decision</span></div>
+      </div>
+    </section>
+
+    <section class="chapter method">
+      <div class="chapter-label">04 / HOW I WORK</div>
+      <div class="statement narrow"><p class="kicker">From uncertainty to movement</p><h2>I listen for what is not being said. Then I build what helps people move.</h2></div>
+      <div class="method-track" id="methodTrack">
+        <button type="button" data-copy="Listen beneath the obvious. The missing signal is often more important than the loudest one.">Listen</button>
+        <button type="button" data-copy="Frame the real decision. A clear frame changes the quality of every conversation that follows.">Frame</button>
+        <button type="button" data-copy="Connect what is fragmented. Relationships reveal causes that isolated facts cannot.">Connect</button>
+        <button type="button" data-copy="Challenge what has become normal. Familiarity is not proof that a system still makes sense.">Challenge</button>
+        <button type="button" data-copy="Invent a better way forward. New structures should make the next action easier to understand.">Invent</button>
+        <button type="button" data-copy="Mobilise ownership. Progress begins when responsibility can no longer hide between teams.">Mobilise</button>
+        <button type="button" data-copy="Measure whether anything truly changed. Activity is not the same as movement.">Measure</button>
+      </div>
+      <p class="method-copy" id="methodCopy">Select a step to explore the thinking behind it.</p>
+    </section>
+
+    <section id="principles" class="chapter principles">
+      <div class="chapter-label">05 / PRINCIPLES</div>
+      <div class="principle-stack">
+        <p>Complexity is not the enemy.</p>
+        <p class="accent">Confusion is.</p>
+        <p>A system reveals itself through the outcomes it repeatedly creates.</p>
+        <p class="accent">Change the system. The outcomes change.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="chapter contact">
+      <div class="chapter-label">06 / CONTINUE THE CONVERSATION</div>
+      <div class="contact-copy">
+        <p class="kicker">Abdullah Zulkifli</p>
+        <h2>I help people see what matters.<br><span class="accent">Then I invent a better way forward.</span></h2>
+        <p>Every meaningful change begins with a conversation that makes the problem clearer.</p>
+        <a class="contact-button magnetic" href="https://www.linkedin.com/in/abdullah-zulkifli-ehe-nde-dfe-cdtp-pmp-989280a6/" target="_blank" rel="noreferrer">Let’s think together <span>↗</span></a>
+      </div>
+      <div class="final-mark" aria-hidden="true">AZ</div>
+    </section>
+  </main>
+
+  <script>
+const canvas=document.getElementById('network');const ctx=canvas.getContext('2d');let w,h,dpr=Math.min(devicePixelRatio||1,2),nodes=[],pointer={x:-9999,y:-9999},scrollFactor=0;
+function resize(){w=innerWidth;h=innerHeight;canvas.width=w*dpr;canvas.height=h*dpr;canvas.style.width=w+'px';canvas.style.height=h+'px';ctx.setTransform(dpr,0,0,dpr,0,0);const count=w<700?42:w<1100?70:105;nodes=Array.from({length:count},(_,i)=>({x:Math.random()*w,y:Math.random()*h,vx:(Math.random()-.5)*.22,vy:(Math.random()-.5)*.22,r:Math.random()*1.6+.5,seed:i}));}
+function animate(){ctx.clearRect(0,0,w,h);scrollFactor=scrollY/Math.max(1,document.documentElement.scrollHeight-h);for(const n of nodes){n.x+=n.vx;n.y+=n.vy;if(n.x<0||n.x>w)n.vx*=-1;if(n.y<0||n.y>h)n.vy*=-1;const pd=Math.hypot(n.x-pointer.x,n.y-pointer.y);if(pd<170){n.x+=(n.x-pointer.x)*.0016;n.y+=(n.y-pointer.y)*.0016;}ctx.beginPath();ctx.arc(n.x,n.y,n.r+(pd<120?1:0),0,Math.PI*2);ctx.fillStyle=pd<130?'rgba(173,255,63,.9)':'rgba(214,226,216,.38)';ctx.fill();}
+ const max=w<700?105:145;for(let i=0;i<nodes.length;i++)for(let j=i+1;j<nodes.length;j++){const a=nodes[i],b=nodes[j],dist=Math.hypot(a.x-b.x,a.y-b.y);if(dist<max){const alpha=(1-dist/max)*(.12+scrollFactor*.09);ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.strokeStyle=`rgba(173,255,63,${alpha})`;ctx.lineWidth=.7;ctx.stroke();}}
+ requestAnimationFrame(animate)}
+addEventListener('resize',resize);addEventListener('pointermove',e=>{pointer.x=e.clientX;pointer.y=e.clientY;const core=document.getElementById('azCore');if(core&&innerWidth>760){const r=core.getBoundingClientRect();const x=(e.clientX-(r.left+r.width/2))/r.width;const y=(e.clientY-(r.top+r.height/2))/r.height;core.style.transform=`perspective(700px) rotateY(${x*10}deg) rotateX(${-y*10}deg) translate3d(${x*8}px,${y*8}px,0)`}});addEventListener('pointerleave',()=>{pointer.x=-9999;pointer.y=-9999});resize();animate();
+
+const progress=document.getElementById('progressBar');addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=`${max?scrollY/max*100:0}%`});
+const toggle=document.querySelector('.menu-toggle'),menu=document.querySelector('.menu');toggle.addEventListener('click',()=>{const open=menu.classList.toggle('open');toggle.setAttribute('aria-expanded',open)});menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remove('open');toggle.setAttribute('aria-expanded','false')}));
+
+document.querySelectorAll('.magnetic').forEach(el=>{el.addEventListener('pointermove',e=>{if(innerWidth<760)return;const r=el.getBoundingClientRect();el.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.12}px,${(e.clientY-r.top-r.height/2)*.12}px)`});el.addEventListener('pointerleave',()=>el.style.transform='')});
+const topics={decision:{text:'I connect signals, context and consequences so leaders can recognise what matters before uncertainty becomes delay.',links:['Signals','Context','Meaning','Decision']},systems:{text:'I look beyond isolated symptoms to understand the relationships and feedback loops that keep producing the same result.',links:['Pattern','Cause','Behaviour','Outcome']},architecture:{text:'I design structures that remain understandable as people, technology and priorities continue to change.',links:['Purpose','People','Data','Change']},execution:{text:'I make ownership, dependencies and trade-offs visible so progress becomes deliberate rather than accidental.',links:['Ownership','Friction','Choices','Movement']}};
+const topicText=document.getElementById('topicText'),topicLinks=document.getElementById('topicLinks');document.querySelectorAll('.exploration').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.exploration').forEach(b=>b.classList.remove('active'));btn.classList.add('active');const t=topics[btn.dataset.topic];topicText.animate([{opacity:0,transform:'translateY(8px)'},{opacity:1,transform:'none'}],{duration:350});topicText.textContent=t.text;topicLinks.innerHTML=t.links.map(x=>`<span>${x}</span>`).join('')}));
+const methodCopy=document.getElementById('methodCopy');document.querySelectorAll('#methodTrack button').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('#methodTrack button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');methodCopy.textContent=btn.dataset.copy;methodCopy.animate([{opacity:.2,transform:'translateY(8px)'},{opacity:1,transform:'none'}],{duration:350})}));
+
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.animate([{opacity:0,transform:'translateY(25px)'},{opacity:1,transform:'none'}],{duration:700,easing:'cubic-bezier(.2,.7,.2,1)',fill:'forwards'});observer.unobserve(entry.target)}}),{threshold:.12});document.querySelectorAll('.chapter .statement,.questions article,.philosophy-grid article,.exploration,.topic-panel,.principle-stack p,.contact-copy').forEach(el=>{el.style.opacity='0';observer.observe(el)});
+
+</script>
+</body>
+</html>
